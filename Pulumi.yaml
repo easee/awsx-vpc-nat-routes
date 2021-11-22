@@ -1,0 +1,3 @@
+name: awsx-vpc-nat-routes
+runtime: nodejs
+description: A test project for adding new private subnets with NAT routes. This will try to recreate existing NAT Gateway routes in all route tables.
