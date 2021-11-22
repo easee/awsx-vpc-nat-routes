@@ -67,30 +67,30 @@ function createVpc(region: string) {
                 },
             },
             // Private subnets - 2nd block
-            {
-                type: 'private',
-                name: 'private-2-1',
-                location: {
-                    cidrBlock: '10.1.100.48/28',
-                    availabilityZone: `${region}a`,
-                },
-            },
-            {
-                type: 'private',
-                name: 'private-2-2',
-                location: {
-                    cidrBlock: '10.1.100.64/28',
-                    availabilityZone: `${region}b`,
-                },
-            },
-            {
-                type: 'private',
-                name: 'private-2-3',
-                location: {
-                    cidrBlock: '10.1.100.80/28',
-                    availabilityZone: `${region}c`,
-                },
-            },
+            // {
+            //     type: 'private',
+            //     name: 'private-2-1',
+            //     location: {
+            //         cidrBlock: '10.1.100.48/28',
+            //         availabilityZone: `${region}a`,
+            //     },
+            // },
+            // {
+            //     type: 'private',
+            //     name: 'private-2-2',
+            //     location: {
+            //         cidrBlock: '10.1.100.64/28',
+            //         availabilityZone: `${region}b`,
+            //     },
+            // },
+            // {
+            //     type: 'private',
+            //     name: 'private-2-3',
+            //     location: {
+            //         cidrBlock: '10.1.100.80/28',
+            //         availabilityZone: `${region}c`,
+            //     },
+            // },
         ],
     });
 }
