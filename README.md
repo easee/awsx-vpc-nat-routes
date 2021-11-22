@@ -1,4 +1,4 @@
-# Private subnet extension - NAT routes issue
+# Adding new private subnets - NAT routes issue
 
 This demo project demonstrates an issue with extending an `awsx.ec2.vpc` component with additional private subnets after the initial creation of the VPC. Pulumi tries to recreate NAT Gateway routes for existing private subnets.
 
